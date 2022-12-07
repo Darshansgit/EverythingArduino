@@ -52,5 +52,4 @@ In both the above cases the LED lights up before the buttton is pressed 5 times.
 
 https://user-images.githubusercontent.com/119427592/206110236-9e3b1912-f6ca-4e03-aa53-776bf244f5a4.mp4
 
-
-
+![Code_for_reference](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/Code/2_debouncing.ino)
