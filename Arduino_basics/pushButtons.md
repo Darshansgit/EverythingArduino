@@ -42,4 +42,4 @@ So that solves the issue of a unsteady idle state, same can be done for a 5V inp
 
 Mechanical switches come with their own niche set of issues, when they change state from on to off they clatter where a single button press is registered multiple times. This phenomena is very annoying and makes it difficult for us to use push buttons in project. For instance, the following code is meant to keep a count of number of button pressses and it is supposed to light up the led when the number of button presses are equal to 5, the LED however seems to light up before the number of button presses are 5 often. 
 
-![Videos](https://user-images.githubusercontent.com/119427592/206105343-abaec6e5-5372-4820-9575-be80df623a79.mp4)
+https://user-images.githubusercontent.com/119427592/206105343-abaec6e5-5372-4820-9575-be80df623a79.mp4
