@@ -13,12 +13,17 @@ In an ideal case a switch would have two states, on or off
 
 ![Images](Images/1.jpg)
 
-However if you read the values you get from a push button pin you are expected to get one of three states, assuming that on the push buttons one pin is connected to GND pin or arduino, when the button is not being pressed you expect to read HIGH or 1, when the button is pressed and the switch is closed you expect to read LOW or 0. However you never consider that the arduino pin reading the value is also sensitive to external noise from other pins or electronic compoenents. This creates a weird grey area where the input pin neither reads 0 or 1 and keeps toggling betweeen the two values at very high speeds.
+However if you read the values you get from a push button pin you are expected to get one of three states, assuming that on the push buttons one pin is connected to GND pin or arduino, when the button is not being pressed you expect to read HIGH or 1, when the button is pressed and the switch is closed you expect to read LOW or 0. 
 |Input|State|
 |:----|:----|
 |0|LOW|
 |1|HIIGH|
 |idle|High impedence|
 
+![Images](Images/2.jpg)
+
+However you never consider that the arduino pin reading the value is also sensitive to external noise from other pins or electronic compoenents. This creates a weird grey area where the input pin neither reads 0 or 1 and keeps toggling betweeen the two values at very high speeds.
+
+![Images](Images/3.jpg)
 
 
