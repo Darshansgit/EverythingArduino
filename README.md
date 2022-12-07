@@ -13,7 +13,7 @@ In an ideal case a switch would have two states, on or off
 
 ![Images](Images/1.jpg)
 
-However if you read the values you get from a push button pin you are expected to get one of three states, assuming that on the push buttons one pin is connected to GND pin or arduino, when the button is not being pressed you expect to read HIGH or 1, when the button is pressed and the switch is closed you expect to read LOW or 0. 
+If you read the values you get from a push button pin you are expected to get one of **three** states, assuming that on the push buttons one pin is connected to GND pin of arduino, when the button is not being pressed you expect to read HIGH or 1(default state), when the button is pressed and the switch is closed you expect to read LOW or 0. 
 |Input|State|
 |:----|:----|
 |0|LOW|
@@ -22,8 +22,14 @@ However if you read the values you get from a push button pin you are expected t
 
 ![Images](Images/2.jpg)
 
-However you never consider that the arduino pin reading the value is also sensitive to external noise from other pins or electronic compoenents. This creates a weird grey area where the input pin neither reads 0 or 1 and keeps toggling betweeen the two values at very high speeds.
+But you never consider that the arduino pin reading the value is also sensitive to external noise from other pins or electronic compoenents. This creates a weird grey area where the input pin neither reads 0 or 1 and keeps toggling betweeen the two values at very high speeds. This state is known as high impedance and the pin acts very similar to an antenna. 
 
-![Images](Images/3.jpg)
+![Images](Images/3.JPG)
 
+Okay well, now we can see the issue as the idle state is not stable. How do we fix it? **pull up** or **pull down** resistors!!
+
+## 1.1 Pull up/ pull down resistors
+To solve the above issue, you need to pull the pin from which you read to your idle state(example: when the button is not pressed in our case we assume a value of 1 should be printed and when we press the button our new state is 1). Therefore in our case we pull up our read pin so that when buttton is not pressed the state shows 1. You can do this by connecting an actual resistor or you can use the **INPUT_PULLUP** function while defining pinmode which is a default function in arduino.
+
+_Note: you donot have a PULL_DOWN function in arduino so if your default state is 0 or LOW you will need to use physical resistor to pull your pin down_.
 
