@@ -58,5 +58,5 @@ https://user-images.githubusercontent.com/119427592/206110236-9e3b1912-f6ca-4e03
 
 To make sure that one button presss is registered in an instance, even when the button is pressed for a long amount of time, the following code can be implemented where the word 'apple' is printed when a button press is registered. 
 
-[Code_for_reference](
+[Code_for_reference](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/Code/3_buttonClicks.ino)
 
