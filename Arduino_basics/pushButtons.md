@@ -44,5 +44,13 @@ Mechanical switches come with their own niche set of issues, when they change st
 
 
 https://user-images.githubusercontent.com/119427592/206106830-958c5dad-d75c-46e8-a5a3-c3bcea252af8.mp4
+
+
 https://user-images.githubusercontent.com/119427592/206106866-df469a24-285f-4c43-a067-d96d0bd4ca36.mp4
+
+In both the above cases the LED lights up before the buttton is pressed 5 times. We understand that the button is clattering when we lift our hands off the switch as thats when multiple pressses are registered.Therefore, a seperate function is created where when the button press is registered, the program waits for 10ms before declaring the button as pressed and proceeding to the next part of the control flow. The code snippet and the outcome is shown below. 
+
+https://user-images.githubusercontent.com/119427592/206110236-9e3b1912-f6ca-4e03-aa53-776bf244f5a4.mp4
+
+
 
