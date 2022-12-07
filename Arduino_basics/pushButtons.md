@@ -36,3 +36,4 @@ The output after using the pull up method is shown below.
 
 So that solves the issue of a unsteady idle state, same can be done for a 5V input on the button however the read pin will have to be pulled down for the given input on buttton.
 
+[Code_for_reference](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/Code/1__InputPullup.ino)
