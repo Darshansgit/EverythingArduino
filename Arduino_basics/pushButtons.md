@@ -8,7 +8,7 @@ In an ideal case a switch would have two states, on or off
 |0|LOW|
 |1|HIIGH|
 
-![Images](Images/1.jpg)
+![Images](Arduino_basics/Images/1.jpg)
 
 If you read the values you get from a push button pin you are expected to get one of **three** states, assuming that on the push buttons one pin is connected to GND pin of arduino, when the button is not being pressed you expect to read HIGH or 1(default state), when the button is pressed and the switch is closed you expect to read LOW or 0. 
 |Input|State|
@@ -17,11 +17,11 @@ If you read the values you get from a push button pin you are expected to get on
 |1|HIIGH|
 |idle|High impedence|
 
-![Images](Images/2.jpg)
+![Images](Arduino_basics/Images/2.jpg)
 
 But you never consider that the arduino pin reading the value is also sensitive to external noise from other pins or electronic compoenents. This creates a weird grey area where the input pin neither reads 0 or 1 and keeps toggling betweeen the two values at very high speeds. This state is known as high impedance and the pin acts very similar to an antenna. 
 
-![Images](Images/3.JPG)
+![Images](Arduino_basics/Images/3.JPG)
 
 Okay well, now we can see the issue as the idle state is not stable. How do we fix it? **pull up** or **pull down** resistors!!
 
