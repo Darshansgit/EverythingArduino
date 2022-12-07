@@ -53,3 +53,10 @@ In both the above cases the LED lights up before the buttton is pressed 5 times.
 https://user-images.githubusercontent.com/119427592/206110236-9e3b1912-f6ca-4e03-aa53-776bf244f5a4.mp4
 
 [Code_for_reference](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/Code/2_debouncing.ino)
+
+## 1.3 One press at an instance
+
+To make sure that one button presss is registered in an instance, even when the button is pressed for a long amount of time, the following code can be implemented where the word 'apple' is printed when a button press is registered. 
+
+[Code_for_reference](
+
