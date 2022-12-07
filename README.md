@@ -11,7 +11,7 @@ In an ideal case a switch would have two states, on or off
 |0|LOW|
 |1|HIIGH|
 
-![Alternate Text](1.jpeg)
+![Images](Images/1.jpeg)
 
 
 
