@@ -5,7 +5,7 @@ This is a complete repository of everything I learn while working with my arduin
 |Sl.No|Topic name|Description|
 |:----|:---------|:-----------|
 |1.|Arduino basics:|This folder holds all the projects that use basic output devices|
-||+pushButtons|Pullup/pulldown,debouncing|
+||[+pushButtons](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/pushButtons.md)|Pullup/pulldown,debouncing|
 ||+RGBLed||
 |2.|Sensors|This folder contains all projects with various sensors|
 ||DHT11 temperature and humidity|Measures temperature and humidity as digital data|
