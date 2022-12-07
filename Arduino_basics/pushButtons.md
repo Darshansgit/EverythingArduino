@@ -8,7 +8,7 @@ In an ideal case a switch would have two states, on or off
 |0|LOW|
 |1|HIIGH|
 
-![images](images/1.jpg)
+![images](Images/1.jpg)
 
 If you read the values you get from a push button pin you are expected to get one of **three** states, assuming that on the push buttons one pin is connected to GND pin of arduino, when the button is not being pressed you expect to read HIGH or 1(default state), when the button is pressed and the switch is closed you expect to read LOW or 0. 
 |Input|State|
