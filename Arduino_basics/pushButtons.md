@@ -37,3 +37,9 @@ The output after using the pull up method is shown below.
 So that solves the issue of a unsteady idle state, same can be done for a 5V input on the button however the read pin will have to be pulled down for the given input on buttton.
 
 [Code_for_reference](https://github.com/Darshansgit/EverythingArduino/blob/main/Arduino_basics/Code/1__InputPullup.ino)
+
+## 1.2 Bouncing
+
+Mechanical switches come with their own niche set of issues, when they change state from on to off they clatter where a single button press is registered multiple times. This phenomena is very annoying and makes it difficult for us to use push buttons in project. For instance, the following code is meant to keep a count of number of button pressses and it is supposed to light up the led when the number of button presses are equal to 5, the LED however seems to light up before the number of button presses are 5 often. 
+
+![Videos](Videos/v1.mp4)
